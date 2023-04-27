@@ -32,7 +32,7 @@ const Form = ({login}) => {
 
     return (
         <form onSubmit={handleSubmit} >
-            // aca tengo que poner estilos
+            {/* // aca tengo que poner estilos */}
         <label htmlFor="email">EMAIL: </label>
         <input name="email" type="email" placeholder="Ingrese su email" value={userData.email} onChange={handleChange} />
         {errors.email && <div style={{color: 'red'}}>{errors.email}</div>}
