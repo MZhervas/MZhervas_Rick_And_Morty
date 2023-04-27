@@ -1,0 +1,19 @@
+.botonAgregar {
+    background-color: aquamarine;
+    color: black;
+    padding: 0.5em 1.5em;
+    border-radius: 8px;
+    border: solid 2px transparent;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin-left: 0.7em;
+ }
+ .botonAgregar:hover {
+    background-color: brown;
+    color: white;
+ }
+ .botonAgregar:active {
+    background-color: black;
+    color: white;
+    font-size: bold medium;
+ }
